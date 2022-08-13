@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: fantasy;
+    height: 100%;
+    background-image: url(img/1643584241_35-adonius-club-p-fon-dlya-platformera-38.jpeg);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    background-size: 100% 100%;
+    /* background-size: cover; */
+}
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(0, 255, 136);
+}
+.header_title {
+    justify-content: center;
+    margin-right: 80px;
+    font-size: 190%;
+    margin-top: 4px;
+}
+
+.content {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color:#edf8f0db;
+    border-radius: 5%;
+}
+.registration {
+    margin-left: 36%;
+    margin-top: 30px;
+}
+.registration_input {
+    margin-top: 60px;
+    width: 35%;
+    border-radius: 20px;
+    border: 0;
+    background-color:rgba(168, 219, 182, 0.755);
+    outline:none;
+    height: 25px;
+    padding-left: 2%;
+}
+.registration_btn {
+    border-radius: 20px;
+    border: 0;
+    background-color:rgba(168, 219, 182, 0.755);
+    outline:none;
+    height: 25px;
+
+}
+
+.run_game {
+    margin-left: 44%;
+    border-radius: 20px;
+    border: 0;
+    background-color:rgba(168, 219, 182, 0.755);
+    outline:none;
+    height: 25px;
+    width: 10%;
+}
+
+#game_board {
+    /* background-color:black; */
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.rating_table {
+    background-color:rgba(168, 219, 182, 0.755);
+    margin-left: 10%;
+    width: 80%;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.none {
+    height: 50px;
+}
